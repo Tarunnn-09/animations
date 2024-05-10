@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+        .A{ display: inline-block;
+            border-radius: 50%;
+            position: absolute;
+            left: 70px;
+            top: 200px;
+            background-color: red;
+            width: 100px;
+            height: 100px;
+
+            animation-name: new;
+            animation-duration: 1s;
+            animation-fill-mode: both;
+            animation-iteration-count: infinite;
+                }
+          .B{display: inline-block;
+            border-radius: 50%;
+            position: absolute;
+            left: 180px;
+            top: 200px;
+            background-color: rgb(42, 124, 12);
+            width: 100px;
+            height: 100px;
+
+            animation-name: old;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+                }
+
+         .C{ display: inline-block;
+            border-radius: 50%;
+            position: absolute;
+            left: 290px;
+            top: 200px;
+            background-color: rgb(206, 230, 26);
+            width: 100px;
+            height: 100px;
+
+            animation-name: yes;
+            animation-duration: 1s;
+            animation-fill-mode: both;
+            animation-iteration-count: infinite;
+                }
+
+        .D{ display: inline-block;
+            border-radius: 50%;
+            position: absolute;
+            left: 400px;
+            top: 200px;
+            background-color: rgb(65, 8, 189);
+            width: 100px;
+            height: 100px;
+
+            animation-name: no;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+                }
+        
+        
+
+        @keyframes new{
+            from{top: 40px;}
+            to{top: 160px;}
+        }
+        @keyframes old{
+            from{top: 130px;}
+            to{top: 60px;}
+        }
+        @keyframes yes{
+            from{top: 40px;}
+            to{top: 160px;}
+        }
+        @keyframes no{
+            from{top: 130px;}
+            to{top: 60px;}
+        }
+</style>
+<body>
+    
+    <div>
+        <div class="A"></div>
+        <div class="B"></div>
+        <div class="C"></div>
+        <div class="D"></div>
+    </div>
+    
+
+</body>
+</html>

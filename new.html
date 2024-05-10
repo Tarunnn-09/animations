@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+        .A > .B{
+                transition-duration: 2s;
+                transition-property: all;
+        }
+
+        .B:hover{ 
+            transform: scalex(2);
+        }
+
+        .C > .D { transition-duration: 2s;
+                    transition-property: all;}
+
+        .D:hover{
+            transform: rotate(180deg);
+        }
+</style>
+<body>
+    
+    <div class="A">
+        <img class="B" src="https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg" width="300px" height="300px">
+    </div>
+
+    <div class="C">
+        <img class="D" src="https://static1.srcdn.com/wordpress/wp-content/uploads/2023/11/original-avengers-team-cast-in-the-mcu.jpg" width="600px" height="300px">
+    </div>
+</body>
+</html>
